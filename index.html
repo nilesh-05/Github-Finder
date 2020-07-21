@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="bootstrap.min.css" />
+		<link rel="stylesheet" href="bootstrap.min.css" />
+		<!-- <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css"> -->
         <title>Github Finder App</title>
     </head>
     <body>
@@ -13,18 +14,19 @@
             </div>
         </nav>
 
-        <div class="container searchContainer"></div>
-        <div class="search card card-body">
-            <h1 class="ml-5">Search the Github</h1>
-            <p class="lead ml-5">Enter the username you want to search</p>
-            <input type="text" id="searchUser" class="form-control ml-5" placeholder="Github Username" style="width: 500px;" />
+        <div class="container searchContainer">
+            <div class="search card card-body">
+                <h1>Search the Github</h1>
+                <p class="lead">Enter the username you want to search</p>
+                <input type="text" id="searchUser" class="form-control" placeholder="Github Username" />
+            </div>
+            <br>
+            <div id="profile"></div>
         </div>
-        <br />
-		<div id="profile"></div>
-		
-<footer class="mt-5 p-3 text-center bg-light">
-	Made with 💓 by Nilesh
-</footer>
+
+        <footer class="mt-5 p-3 text-center bg-light">
+            Made with 💓 by Nilesh
+        </footer>
 
         <script
             src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
